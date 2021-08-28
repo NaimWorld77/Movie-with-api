@@ -39,7 +39,7 @@ const displayMovieD = (allDetails) => {
     const makeDiv2 = document.createElement('div');
     makeDiv2.innerHTML = `
         <h4> Name : ${allDetails.original_title}</h4>
-        <h5> Country : ${allDetails.original_language}</h5>
+        <h5> Language : ${allDetails.original_language}</h5>
         <h5> Popularity : ${allDetails.popularity}</h5>
         <h5> Budget : ${allDetails.budget}</h5>
         <h5> Revenue : ${allDetails.revenue}</h5>
